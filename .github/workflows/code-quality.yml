@@ -2,10 +2,8 @@
 # lint - flake8 & SAST - Bandit
 name: Code Quality
 
-on:
-    workflow_dispatch:
-      
-    #workflow_call:
+on:    
+    workflow_call:
 
 jobs:
     validate:
